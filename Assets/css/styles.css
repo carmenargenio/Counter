@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing:border-box;
 }
+body{
+    background-color: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.titleH1{
+    text-align: center;
+    margin-top: 50px;
+    color:aliceblue;
+
+}
+
+.resultBox{
+    text-align: center;
+    color: white;
+    margin: 20px 0 20px 0;
+    font-size: 30px;
+    padding: 30px;
+
+    
+}
+
+.decrementBtn{
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.incrementBtn{
+    margin-left: 40px;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+.resetBtn{
+    margin-right: 10px;
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 50%;
+
+}
