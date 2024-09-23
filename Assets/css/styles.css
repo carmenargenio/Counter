@@ -32,6 +32,14 @@ body{
     padding: 20px 30px;
     background-color: white;
     border-radius: 50%;
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+    border: 5px solid white; 
+    
+}
+
+.decrementBtn:hover{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
 
 .incrementBtn{
@@ -40,13 +48,27 @@ body{
     padding: 20px 30px;
     background-color: white;
     border-radius: 50%;
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+    border: 5px solid white; 
+    
 
+}
+.incrementBtn:hover{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
 .resetBtn{
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px 30px;
     background-color: white;
     border-radius: 50%;
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+    text-transform: uppercase;
+    border: 5px solid white; 
 
+}
+.resetBtn:hover{
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
