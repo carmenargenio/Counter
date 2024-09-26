@@ -22,11 +22,6 @@ container.appendChild(resultBox);
 //buttons
 let buttonCont = createElement ("div","btn","");
 
-/*buttonCont.innerHTML = `
-    <button class="decrementBtn" data-action="decrement">-</button>
-    <button class="resetBtn" data-action="reset">reset</button>
-    <button class="incrementBtn" data-action="increment">+</button>
-`;*/
 
 let decBtn = createElement("button", "decrementBtn","-","decrement");
 let resBtn = createElement("button", "resetBtn","Reset","reset");
