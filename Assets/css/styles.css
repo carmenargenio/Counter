@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-image: url("../../img/zengarden.jpg");
+    background-image: url("../img/zengarden.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -28,9 +28,9 @@ body{
     margin: 20px 0 20px 0;
     font-size: 30px;
     padding: 30px;
-
-    
 }
+
+
 
 .decrementBtn{
     margin-right: 50px;
@@ -52,7 +52,7 @@ body{
     margin-left: 40px;
     font-size: 20px;
     padding: 20px 30px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 50%;
     box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
     transition: all 150ms ease-in-out;
@@ -91,3 +91,10 @@ body{
     
 }
 
+
+@media only screen and (max-width: 378px) {
+    .incrementBtn, .decrementBtn, .resetBtn {
+        display: block;
+        margin: 10px auto; /* Centratura dei pulsanti */
+    }
+}
