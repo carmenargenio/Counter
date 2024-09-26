@@ -84,6 +84,13 @@ button, input, .incrementBtn, .decrementBtn, .resetBtn {
 .resetBtn:hover{
     box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
+
+.incrementBtn, .decrementBtn, .resetBtn {
+    user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
 #message {
     display: none;
     padding: 20px;
