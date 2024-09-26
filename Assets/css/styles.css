@@ -13,6 +13,12 @@ body{
     text-align: center;
 }
 
+button, input, .incrementBtn, .decrementBtn, .resetBtn {
+    -webkit-appearance: none;
+    appearance: none;
+    text-decoration: none;
+}
+
 .titleH1{
     text-align: center;
     margin-top: 130px;
@@ -95,6 +101,6 @@ body{
 @media only screen and (max-width: 378px) {
     .incrementBtn, .decrementBtn, .resetBtn {
         display: block;
-        margin: 10px auto; /* Centratura dei pulsanti */
+        margin: 10px auto; 
     }
 }
