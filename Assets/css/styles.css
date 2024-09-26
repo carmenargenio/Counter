@@ -43,50 +43,31 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
 
 
 
-.decrementBtn{
-    margin-right: 50px;
-    font-size: 20px;
+.incrementBtn, .decrementBtn, .resetBtn {
     padding: 20px 30px;
     background-color: white;
     border-radius: 50%;
     box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
     transition: all 150ms ease-in-out;
-    border: 5px solid white; 
-    
+    border: 5px solid white;
+    color: black;
 }
 
-.decrementBtn:hover{
-    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+.decrementBtn {
+    margin-right: 50px;
 }
 
-.incrementBtn{
+.incrementBtn {
     margin-left: 40px;
-    font-size: 20px;
-    padding: 20px 30px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
-    transition: all 150ms ease-in-out;
-    border: 5px solid white; 
-    
+}
 
-}
-.incrementBtn:hover{
-    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
-}
-.resetBtn{
+.resetBtn {
     margin-right: 10px;
     font-size: 15px;
-    padding: 20px 30px;
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
-    transition: all 150ms ease-in-out;
     text-transform: uppercase;
-    border: 5px solid white; 
-
 }
-.resetBtn:hover{
+
+.decrementBtn:hover, .incrementBtn:hover, .resetBtn:hover {
     box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
 
