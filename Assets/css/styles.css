@@ -24,7 +24,7 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
     font-size: 16px; 
 }
 
-.titleH1{
+.title-h1{
     text-align: center;
     margin-top: 130px;
     color:rgb(255, 255, 255);
@@ -33,7 +33,7 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
 
 }
 
-.resultBox{
+.result-Box{
     text-align: center;
     color: white;
     margin: 20px 0 20px 0;
@@ -43,7 +43,7 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
 
 
 
-.incrementBtn, .decrementBtn, .resetBtn {
+.increment-btn, .decrement-btn, .reset-btn {
     padding: 20px 30px;
     background-color: white;
     border-radius: 50%;
@@ -53,25 +53,25 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
     color: black;
 }
 
-.decrementBtn {
+.decrement-btn {
     margin-right: 50px;
 }
 
-.incrementBtn {
+.increment-btn {
     margin-left: 40px;
 }
 
-.resetBtn {
+.reset-btn {
     margin-right: 10px;
     font-size: 15px;
     text-transform: uppercase;
 }
 
-.decrementBtn:hover, .incrementBtn:hover, .resetBtn:hover {
+.decrement-btn:hover, .increment-btn:hover, .reset-btn:hover {
     box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
 }
 
-.incrementBtn, .decrementBtn, .resetBtn {
+.increment-btn, .decrement-btn, .reset-btn {
     user-select: none; 
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -87,12 +87,13 @@ button, .incrementBtn, .decrementBtn, .resetBtn {
     color: #ffffff;
     font-weight: bold;
     font-size: 20px;
+    border-radius: 100px;
     
 }
 
 
 @media only screen and (max-width: 378px) {
-    .incrementBtn, .decrementBtn, .resetBtn {
+    .increment-btn, .decrement-btn, .reset-btn {
         display: block;
         margin: 10px auto; 
     }

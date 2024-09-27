@@ -12,26 +12,26 @@ let counter = 0;
 let container = createElement ("div", "", "");
 
 //title
-let title = createElement ("h1", "titleH1", "Zen Counter");
+let title = createElement ("h1", "title-h1", "Zen Counter");
 container.appendChild(title);
 
 //display counter
-let resultBox = createElement ("div", "resultBox", counter);
+let resultBox = createElement ("div", "result-Box", counter);
 container.appendChild(resultBox);
 
 //buttons
-let buttonCont = createElement ("div","btn","");
+let buttonCont = createElement ("div","","");
 
 
-let decBtn = createElement("button", "decrementBtn","-","decrement");
-let resBtn = createElement("button", "resetBtn","Reset","reset");
-let incBtn = createElement("button", "incrementBtn","+","increment"); 
+let decBtn = createElement("button", "decrement-btn","-","decrement");
+let resBtn = createElement("button", "reset-btn","Reset","reset");
+let incBtn = createElement("button", "increment-btn","+","increment"); 
 
 buttonCont.appendChild(decBtn);
 buttonCont.appendChild(resBtn);
 buttonCont.appendChild(incBtn);
 
-container.appendChild(buttonCont);
+container.appendChild(buttonCont); 
 
 //added to the body
 document.body.appendChild(container);
